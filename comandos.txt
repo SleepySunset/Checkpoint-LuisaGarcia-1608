@@ -1,0 +1,33 @@
+  163  git clone https://github.com/SleepySunset/Checkpoint-LuisaGarcia-1608.git
+  164  touch main.js
+  165  touch index.html
+  166  git commit -m "commit 01 LuisaGarcia"
+  167  git add .
+  168  git commit -m "commit 01 LuisaGarcia"
+  169  git push origin main
+  170  git branch feature
+  171  git checkout feature
+  172  mkdir Hardware
+  173  mkdir Software
+  174  mkdir SeguridadInformatica
+  175  cd Hardware
+  176  resumen.txt
+  177  touch resumen.txt
+  178  cd ..
+  179  cd Software
+  180  touch resumen.txt
+  181  cd ../SeguridadInformatica
+  182  touch resumen.txt
+  183  git push origin feature
+  184  git add .
+  185  git commit -m "commit 02 LuisaGarcia"
+  186  git push origin feature
+  187  cd ..
+  188  git add .
+  189  git commit -m "commit 03 LuisaGarcia"
+  190  git push origin feature
+  191  git checkout main
+  192  mv main.js resumenHardware.txt
+  193  mv index.html resumenSoftware.txt
+  194  touch comandos.txt
+  195  history
